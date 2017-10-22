@@ -1,0 +1,7 @@
+language: go
+go:
+  - master
+script: go build
+after_success:
+ - chmod +x ./scripts/push-binary.sh
+ - ./scripts/push-binary.sh
