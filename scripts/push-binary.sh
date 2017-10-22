@@ -1,4 +1,3 @@
-cd $HOME
 git config --global user.email "gidsi@chaospott.de"
 git config --global user.name "Timm"
 
