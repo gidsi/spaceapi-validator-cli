@@ -1,5 +1,5 @@
-git config --global user.email "gidsi@chaospott.de"
-git config --global user.name "Timm"
+git config --global user.email "travis@travis-ci.org"
+git config --global user.name "Travis CI"
 
 git add -f .
 git remote rm origin
