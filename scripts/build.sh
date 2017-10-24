@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir bin
+mkdir ../bin
 
 for R in       \
     darwin/386     \
@@ -28,11 +28,11 @@ for R in       \
 
     echo ${filename}
 
-    GOOS=${os} GOARCH=${arch} go build -o "bin/${filename}"
+    GOOS=${os} GOARCH=${arch} go build -o "../bin/${filename}"
 
 done
 
-cd "bin"
+cd "../bin"
 sha256sum spaceapi-validator-* > SHA256SUMS
 
 echo "done"

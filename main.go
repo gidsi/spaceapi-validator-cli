@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"os"
-	"io/ioutil"
 	validator "github.com/gidsi/go-spaceapi-validator"
+	"io/ioutil"
+	"os"
 )
 
 func init() {
