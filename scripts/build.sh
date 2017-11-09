@@ -9,7 +9,7 @@ for R in       \
     freebsd/amd64  \
     freebsd/arm    \
     linux/386      \
-    linux/arm64    \
+    linux/amd64    \
     linux/arm      \
     linux/arm64    \
     openbsd/386   \
