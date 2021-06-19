@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	validator "github.com/gidsi/go-spaceapi-validator"
+	validator "github.com/spaceapi-community/go-spaceapi-validator"
 	"io/ioutil"
 	"os"
 )
